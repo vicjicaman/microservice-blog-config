@@ -7,22 +7,22 @@
   },
   "config": [{
       "name": "SERVICE_GRAPH",
-      "value": "auth-graph-service",
+      "value": "blog-graph-service",
       "type": "id"
     },
     {
       "name": "SERVICE_WEB",
-      "value": "auth-web-service",
+      "value": "blog-web-service",
       "type": "id"
     },
     {
       "name": "DEPLOYMENT_GRAPH",
-      "value": "auth-graph-deployment",
+      "value": "blog-graph-deployment",
       "type": "id"
     },
     {
       "name": "DEPLOYMENT_WEB",
-      "value": "auth-web-deployment",
+      "value": "blog-web-deployment",
       "type": "id"
     },
     {
