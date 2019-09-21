@@ -1,4 +1,8 @@
 {
+  "DATABASE": {
+    "value": "blog",
+    "type": "id"
+  },
   "SERVICE_GRAPH": {
     "value": "blog-graph-service",
     "type": "id"
