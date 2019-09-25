@@ -5,11 +5,13 @@
       "version": "1.70.1-master"
     }
   },
-  "config": [{
+  "config": [
+    {
       "name": "DATABASE",
       "value": "blog",
       "type": "id"
-    },{
+    },
+    {
       "name": "SERVICE_GRAPH",
       "value": "blog-graph-service",
       "type": "id"
