@@ -1,70 +1,46 @@
 {
-  "DATABASE": {
-    "value": "blog",
-    "type": "id"
-  },
-  "SERVICE_GRAPH": {
-    "value": "blog-graph-service",
-    "type": "id"
-  },
-  "SERVICE_WEB": {
-    "value": "blog-web-service",
-    "type": "id"
-  },
-  "DEPLOYMENT_GRAPH": {
-    "value": "blog-graph-deployment",
-    "type": "id"
-  },
-  "DEPLOYMENT_WEB": {
-    "value": "blog-web-deployment",
-    "type": "id"
-  },
-  "BASE_ROUTE": {
+  "BLOG_BASE_ROUTE": {
     "value": "/blog",
     "type": "path"
   },
-  "BASE_ROUTE_APP": {
-    "value": "/blog",
-    "type": "path"
-  },
-  "BASE_ROUTE_BACKEND": {
+  "BACKEND_BASE_ROUTE": {
     "value": "/blog/backend",
     "type": "path"
   },
-  "INTERNAL_PORT_APP": {
-    "value": 3000,
-    "type": "port"
+  "GRAPH_SERVICE_NAME": {
+    "value": "blog-graph-service",
+    "type": "id"
   },
-  "ROUTE_GRAPH": {
+  "GRAPH_BASE_ROUTE": {
     "value": "/blog/backend/graphql",
     "type": "route"
   },
-  "ROUTE_EVENTS": {
-    "value": "/blog/backend/events",
-    "type": "route"
-  },
-  "INTERNAL_PORT_GRAPH": {
+  "GRAPH_INTERNAL_PORT": {
     "value": 4000,
     "type": "port"
   },
-  "INTERNAL_HOST_BACKEND": {
+  "WEB_SERVICE_NAME": {
+    "value": "blog-web-service",
+    "type": "id"
+  },
+  "WEB_BASE_ROUTE": {
+    "value": "/blog",
+    "type": "path"
+  },
+  "WEB_INTERNAL_PORT": {
+    "value": 3000,
+    "type": "port"
+  },
+  "BACKEND_INTERNAL_HOST": {
     "value": "blog-graph-service.microservices-namespace",
     "type": "host"
   },
-  "INTERNAL_URL_GRAPH": {
-    "value": "blog-graph-service.microservices-namespace:4000/blog/backend/graphql",
+  "GRAPH_INTERNAL_URL": {
+    "value": "http://blog-graph-service.microservices-namespace:4000/blog/backend/graphql",
     "type": "url"
   },
-  "INTERNAL_URL_EVENTS": {
-    "value": "blog-graph-service.microservices-namespace:4000/blog/backend/events",
-    "type": "url"
-  },
-  "EXTERNAL_URL_GRAPH": {
-    "value": "www.repoflow.com/blog/backend/graphql",
-    "type": "url"
-  },
-  "EXTERNAL_URL_EVENTS": {
-    "value": "www.repoflow.com/blog/backend/events",
+  "GRAPH_EXTERNAL_URL": {
+    "value": "https://www.repoflow.com/blog/backend/graphql",
     "type": "url"
   }
 }
