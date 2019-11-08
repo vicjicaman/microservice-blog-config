@@ -32,15 +32,15 @@
     "type": "port"
   },
   "BACKEND_INTERNAL_HOST": {
-    "value": "blog-graph-service.microservices-namespace",
+    "value": "blog-graph-service.repoflow-blog-namespace",
     "type": "host"
   },
   "GRAPH_INTERNAL_URL": {
-    "value": "http://blog-graph-service.microservices-namespace:4000/blog/backend/graphql",
+    "value": "http://blog-graph-service.repoflow-blog-namespace:4000/blog/backend/graphql",
     "type": "url"
   },
   "GRAPH_EXTERNAL_URL": {
-    "value": "https://www.repoflow.com/blog/backend/graphql",
+    "value": "https://blog.repoflow.com/blog/backend/graphql",
     "type": "url"
   }
 }
